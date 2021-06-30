@@ -1,5 +1,8 @@
-<h3>JavaFX Starter Project</h3>
-This is a base project for JavaFX projects.
+<h3>JavaFX Covid 19 Analysis</h3>
+<p>
+An application created using javafx to show India's analytical data
+of covid 19.
+</p>
 
 ```
 Copyright 2021 rahulstech

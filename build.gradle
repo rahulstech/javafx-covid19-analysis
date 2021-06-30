@@ -24,8 +24,8 @@ plugins {
  * Set proper values for the following fields
  */
 
-group = "<< group name >>"
-version = "<< version >>"
+group = "rahulstech.javafx"
+version = "1.0-SNAPSHOT "
 
 application.mainClassName = "<< name/of/main/class >>"
 application.applicationName = rootProject.name // change the application name if want
