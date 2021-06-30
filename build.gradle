@@ -25,9 +25,9 @@ plugins {
  */
 
 group = "rahulstech.javafx"
-version = "1.0-SNAPSHOT "
+version = "1.0-SNAPSHOT"
 
-application.mainClassName = "<< name/of/main/class >>"
+application.mainClassName = "$moduleName/rahulstech.javafx.covid19analysis.Covid19App"
 application.applicationName = rootProject.name // change the application name if want
 
 javafx.version = "11.0.2"
@@ -54,6 +54,16 @@ repositories {
  * more dependencies as required
  */
 dependencies {
+
+    // sqlite dependency
+    implementation 'org.xerial:sqlite-jdbc:3.36.0'
+
+    // okhttp dependency
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+
+    // gson dependency
+    implementation 'com.google.code.gson:gson:2.8.7'
+
     // logging dependency
     //implementation "org.apache.logging.log4j:log4j-api:2.11.1"
     //implementation "org.apache.logging.log4j:log4j-core:2.11.1"
